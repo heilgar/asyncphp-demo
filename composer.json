@@ -1,0 +1,21 @@
+{
+    "name": "l9/asyncphp",
+    "require": {
+        "php": "^8.2",
+        "amphp/amp": "^3.0",
+        "symfony/http-client": "^7.0",
+        "fakerphp/faker": "^1.23",
+        "amphp/parallel": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heilgar\\Asyncphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleh Hrebeniuk",
+            "email": "olehhrebeniuk@gmail.com"
+        }
+    ]
+}
